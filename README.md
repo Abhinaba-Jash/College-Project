@@ -3,3 +3,4 @@ Now run the frames_extraction.py file, it will extract the frames from the raw v
 Now train the mesonet model(which is inside mesonet.py) with the frames that you have extracted and put it inside data/train. To do that simply run train.py it will automatically train the model with the extracted frames.
 Now comes the final part, download some sample real and fake videos from internet and put them inside data/test_videos/(e.g., data/test_videos/sample_vid1.mp4), and simply run test.py script(don't forget to update the file path at line number 27 inside test.py script with the proper path of the test video).
 See the output, is it correct or not, note that. Try to run it on multiple real and fake videos.
+Don't forget to see the Folder_str.png image to see the folder structure and create the folder as it is, other wise the script will not run properly.
